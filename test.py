@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # === Load & Preprocess Dataset ===
-df = pd.read_csv(r'D:\web project\drug interaction\data\db_drug_interactions.csv')
+df = pd.read_csv('data/db_drug_interactions.csv')
 
 # Clean column names
 df.rename(columns={
